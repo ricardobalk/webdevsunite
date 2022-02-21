@@ -17,9 +17,12 @@
           <h2>When:</h2>
           <p>
             On 2's day &ndash;
-            <time datetime="2022-02-22T22:22Z">22 February 2022 at 22:22 UTC</time>
+            <time datetime="2022-02-22T22:22Z">22 February 2022 at 20:00 UTC</time>
             &ndash;
-            <NuxtLink to="/WebDevsUnite-Invite.ics" no-prefetch>let's add this to your calendar.</NuxtLink>
+            <a
+              href="/WebDevsUnite-Invite.ics"
+              download
+            >let's add this to your calendar.</a>
           </p>
         </div>
 
@@ -34,7 +37,7 @@
             </span>
           </div>
           <div class="buttons">
-            <CTAButton class="cta-button" link="/WebDevsUnite-Invite.ics">Save the date</CTAButton>
+            <a class="button cta-button" href="/WebDevsUnite-Invite.ics" download>Save the date</a>
             <!-- <CTAButton class="cta-button" link="/meeting">Join meeting</CTAButton> -->
           </div>
         </div>
@@ -76,7 +79,7 @@
         }
         .buttons {
           .button {
-            @apply mr-4 last:mr-0 transition-all;
+            @apply mr-4 last:mr-0 transition-all rounded-full px-4 py-3 bg-slate-600 text-white hover:bg-slate-800;
             @apply dark:bg-transparent dark:text-teal-100 dark:border dark:border-teal-400;
             @apply dark:hover:bg-teal-400 dark:hover:text-black;
           }

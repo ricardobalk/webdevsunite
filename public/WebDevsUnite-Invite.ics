@@ -7,7 +7,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 DESCRIPTION:WebDevs Unite is hosting a virtual event where developers can meet each other and casually talk about their interests.
 DTEND:20220223T020000Z
-DTSTART:20220222T222200Z
+DTSTART:20220222T200000Z
 LOCATION:https://webdevsunite.net/join-meeting
 PRIORITY:5
 SEQUENCE:0

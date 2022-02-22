@@ -37,8 +37,8 @@
             </span>
           </div>
           <div class="buttons">
-            <a class="button cta-button" href="/WebDevsUnite-Invite.ics" download>Save the date</a>
-            <!-- <CTAButton class="cta-button" link="/meeting">Join meeting</CTAButton> -->
+            <!-- <a class="button cta-button" href="/WebDevsUnite-Invite.ics" download>Save the date</a> -->
+            <a class="button cta-button" href="https://meet.jit.si/TwosDayWDU">Join meeting now</a>
           </div>
         </div>
       </div>
